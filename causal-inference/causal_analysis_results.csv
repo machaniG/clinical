@@ -1,0 +1,15 @@
+result_type,method,refutation_type,estimate,ci_lower,ci_upper,original_effect,new_effect,new_effect_min,new_effect_max,p_value,is_statistically_significant,treatment_strength,outcome_strength
+estimate,propensity_score_weighting,,3.3349642082708306,2.4331648974530555,4.370318953787759,,,,,,,,
+estimate,econml.LinearDML,,3.545710607677346,,,,,,,,,,
+refutation,random_common_cause,Refute: Add a random common cause,,,,3.3349642082708306,3.3349642082708306,,,1.0,False,,
+refutation,placebo_treatment,Refute: Use a Placebo Treatment,,,,3.3349642082708306,0.7466316913770749,,,0.10000000000000009,False,,
+stress_test_summary,unobserved_common_cause,Refute: Add an Unobserved Common Cause,,,,3.3349642082708306,,0.18969110387070653,3.037554069450523,,,,
+stress_test_scenario,unobserved_common_cause,,,,,3.3349642082708306,3.037554069450523,,,,,0.01,0.5
+stress_test_scenario,unobserved_common_cause,,,,,3.3349642082708306,2.8730554521995506,,,,,0.01,1.0
+stress_test_scenario,unobserved_common_cause,,,,,3.3349642082708306,2.664107637227251,,,,,0.01,2.0
+stress_test_scenario,unobserved_common_cause,,,,,3.3349642082708306,2.1998283251440363,,,,,0.05,0.5
+stress_test_scenario,unobserved_common_cause,,,,,3.3349642082708306,1.6564866509916856,,,,,0.05,1.0
+stress_test_scenario,unobserved_common_cause,,,,,3.3349642082708306,1.4705937376240188,,,,,0.05,2.0
+stress_test_scenario,unobserved_common_cause,,,,,3.3349642082708306,1.0067550771884846,,,,,0.1,0.5
+stress_test_scenario,unobserved_common_cause,,,,,3.3349642082708306,0.23000012979010398,,,,,0.1,1.0
+stress_test_scenario,unobserved_common_cause,,,,,3.3349642082708306,0.18969110387070653,,,,,0.1,2.0
